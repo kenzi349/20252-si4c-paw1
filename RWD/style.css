@@ -1,0 +1,39 @@
+/*hp max width : 600px*/
+@media screen and (max-width: 600px) {
+    /* elemen sector body*/
+    body{
+        background-color: rgb(195, 106, 207);
+    }
+}
+
+
+/*tablet min width : 600px*/
+@media screen and (min-width: 600px) {
+    /* elemen sector body*/
+    body {
+        background-color: rgb(42, 214, 191);
+    }
+    /* class selector */
+    .col-md-50{
+        width: 50%;
+        float: left;
+    }
+}
+
+/*dekstop min width : 600px*/
+@media screen and (min-width : 995px) {
+ /* elemen sector body */
+ body{
+    background-color: rgb(45, 42, 214);
+ }
+
+ /* class selector */
+ .col-lg-25{
+    width: 25%;
+    float: left;
+ }
+ .col-md-50{
+        width: 50%;
+        float: left;
+ }
+}
